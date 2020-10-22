@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <EditText
+        android:id="@+id/email_Registration"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias=".5"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias=".3"
+
+        app:layout_constraintWidth_percent=".8"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="EmailId:"
+        android:background="@drawable/edit_text_bg"
+        android:inputType="textEmailAddress"
+
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="125dp" />
+
+    <EditText
+        android:id="@+id/password_Registration"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias=".5"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email_Registration"
+        app:layout_constraintVertical_bias="0"
+
+        app:layout_constraintWidth_percent=".8"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Password:"
+        android:background="@drawable/edit_text_bg"
+        android:inputType="textPassword"
+
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+
+        android:layout_marginTop="20dp"
+        />
+    <EditText
+        android:id="@+id/mobile_Registration"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias=".5"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password_Registration"
+        app:layout_constraintVertical_bias="0"
+
+        app:layout_constraintWidth_percent=".8"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Mobile Number:"
+        android:background="@drawable/edit_text_bg"
+        android:inputType="number"
+
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_marginTop="20dp"
+
+
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="238dp" />
+<!--    <EditText-->
+<!--        android:id="@+id/alternateMb_Registration"-->
+
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+
+<!--        app:layout_constraintHorizontal_bias=".5"-->
+
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/mobile_Registration"-->
+<!--        app:layout_constraintVertical_bias="0"-->
+
+<!--        app:layout_constraintWidth_percent=".8"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="Alternate Mobile Number:"-->
+<!--        android:background="@drawable/edit_text_bg"-->
+
+<!--        android:paddingLeft="20dp"-->
+<!--        android:paddingTop="10dp"-->
+<!--        android:paddingBottom="10dp"-->
+<!--        android:layout_marginTop="20dp"-->
+
+
+<!--        tools:layout_editor_absoluteX="26dp"-->
+<!--        tools:layout_editor_absoluteY="238dp" />-->
+<!--    <EditText-->
+<!--        android:id="@+id/college_Registration"-->
+
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+
+<!--        app:layout_constraintHorizontal_bias=".5"-->
+
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/alternateMb_Registration"-->
+<!--        app:layout_constraintVertical_bias="0"-->
+
+<!--        app:layout_constraintWidth_percent=".8"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="Select College Name:"-->
+<!--        android:background="@drawable/edit_text_bg"-->
+
+<!--        android:paddingLeft="20dp"-->
+<!--        android:paddingTop="10dp"-->
+<!--        android:paddingBottom="10dp"-->
+<!--        android:layout_marginTop="12dp"-->
+
+<!--        tools:layout_editor_absoluteX="26dp"-->
+<!--        tools:layout_editor_absoluteY="238dp" />-->
+<!--    <EditText-->
+<!--        android:id="@+id/branch_Registration"-->
+
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+
+<!--        app:layout_constraintHorizontal_bias=".5"-->
+
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/college_Registration"-->
+<!--        app:layout_constraintVertical_bias="0"-->
+
+<!--        app:layout_constraintWidth_percent=".8"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="Select Branch:"-->
+<!--        android:background="@drawable/edit_text_bg"-->
+
+<!--        android:layout_marginTop="12dp"-->
+<!--        android:paddingLeft="20dp"-->
+<!--        android:paddingTop="10dp"-->
+<!--        android:paddingBottom="10dp"-->
+
+<!--        tools:layout_editor_absoluteX="26dp"-->
+<!--        tools:layout_editor_absoluteY="238dp" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/year_Registration"-->
+
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+
+<!--        app:layout_constraintHorizontal_bias=".5"-->
+
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/branch_Registration"-->
+<!--        app:layout_constraintVertical_bias="0"-->
+
+<!--        app:layout_constraintWidth_percent=".8"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="Select Year:"-->
+<!--        android:background="@drawable/edit_text_bg"-->
+
+<!--        android:layout_marginTop="12dp"-->
+<!--        android:paddingLeft="20dp"-->
+<!--        android:paddingTop="10dp"-->
+<!--        android:paddingBottom="10dp"-->
+
+<!--        tools:layout_editor_absoluteX="26dp"-->
+<!--        tools:layout_editor_absoluteY="238dp" />-->
+
+
+
+    <Button
+        android:id="@+id/button_Registration"
+
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:text="Submit"
+
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="@color/design_default_color_on_primary"
+        android:background="@drawable/button_bg"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mobile_Registration"
+
+        app:layout_constraintVertical_bias=".7"
+        app:layout_constraintWidth_percent=".8" />
+</androidx.constraintlayout.widget.ConstraintLayout>
