@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">ProjectAjanOne</string>
     <string name="ajna_programming_and_training_institute">Ajna Programming and Training Institute</string>
+    <string name="dashboard">dashboard</string>
+    <string name="logo">Logo</string>
+    <string name="let_s_get_connected">Let\'s get connected</string>
 </resources>
